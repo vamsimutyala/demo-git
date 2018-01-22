@@ -10,8 +10,13 @@ router.get('/task', function(req, res, next) {
   res.render('index', { title: 'Task 3' });
 });
 
+
 router.get('/task-2', function(req, res, next) {
   res.render('index', { title: 'Task 2' });
+});
+
+router.get('/task-3', function(req, res, next) {
+  res.render('index', { title: 'Task 4' });
 });
 
 module.exports = router;
